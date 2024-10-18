@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/sam" name="sample" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/getdata">
+        <inSequence>
+            <payloadFactory media-type="json">
+                <format>{
+
+"Welcome":"To Choreo"
+}</format>
+                <args/>
+            </payloadFactory>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>
