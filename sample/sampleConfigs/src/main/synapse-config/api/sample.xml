@@ -9,6 +9,10 @@
 }</format>
                 <args/>
             </payloadFactory>
+            <log/>
+            <call>
+                <endpoint key="sampleEP"/>
+            </call>
             <respond/>
         </inSequence>
         <outSequence/>

@@ -8,4 +8,7 @@
     <artifact name="sample_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
         <file>src/main/resources/metadata/sample_metadata.yaml</file>
     </artifact>
+    <artifact name="sampleEP" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/sampleEP.xml</file>
+    </artifact>
 </artifacts>
